@@ -9,7 +9,7 @@ body {
 }
 h2 {
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
   font-size: 45px;
   font-family: var(--default-font-family);
 }
@@ -27,7 +27,6 @@ p {
 }
 
 .project-img {
-  height: 380px;
   border-radius: 20px;
   border: 3px groove var(--main-color);
 }
