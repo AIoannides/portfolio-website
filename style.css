@@ -1,14 +1,20 @@
 :root {
   --heading-font-family: "Sacramento", cursive;
   --default-font-family: "Nunito", sans-serif;
+  --main-color: #00ffff;
 }
 body {
   background-color: #000;
+  margin: 30px auto;
+}
+h2 {
+  color: #fff;
+  text-align: center;
 }
 
-p {
-  color: #fff;
-  font-family: var(--default-font-family);
+.project-img {
+  border-radius: 20px;
+  border: 3px groove var(--main-color);
 }
 .hero {
   margin: 130px;
@@ -16,7 +22,6 @@ p {
   text-align: center;
   border: 1px groove darkgrey;
   border-radius: 10px;
-  width: 100%;
 }
 .hero h1 {
   font-family: var(--heading-font-family);
@@ -25,4 +30,23 @@ p {
 }
 .logo {
   width: 70px;
+}
+
+.btn-branding {
+  background-color: none;
+  opacity: 40%;
+  color: #fff;
+  border: 2px groove;
+  border-radius: 10px;
+  transition: all 0.25s;
+}
+
+.btn-branding:hover {
+  border-color: var(--main-color);
+  opacity: 80%;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--main-color);
+  transform: translateY(-0.25em);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--main-color);
 }
