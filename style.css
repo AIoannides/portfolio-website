@@ -22,7 +22,7 @@ p {
 
 .horizontal-line {
   height: 1px;
-  background-color: #ccc;
+  background-color: var(--main-color);
   border: none;
 }
 
