@@ -27,7 +27,6 @@ h3 {
 .horizontal-line {
   height: 1px;
   background-color: var(--main-color);
-  border: none;
 }
 
 .project-img {
@@ -95,6 +94,30 @@ h3 {
   border-radius: 10px;
   border: 1px dotted var(--main-color);
   box-shadow: 10px 10px 10px var(--main-color);
+}
+
+.icons {
+  font-size: 28px;
+  color: var(--main-color);
+  padding: 10px;
+
+  border: 1px groove darkgrey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px var(--main-color);
+  text-align: center;
+  margin-left: 50px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  text-align: center;
+}
+
+.contact-info {
+  padding: 20px;
 }
 
 @media (max-width: 600px) {
