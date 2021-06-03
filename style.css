@@ -3,25 +3,35 @@
   --default-font-family: "Nunito", sans-serif;
   --main-color: #00ffff;
 }
+
 body {
   background-color: #000;
   margin: 30px auto;
 }
+
 h2 {
   color: #fff;
   font-size: 45px;
   font-family: var(--default-font-family);
 }
 
+h2:hover {
+  color: var(--main-color);
+}
+
+h3 {
+  font-family: var(--default-font-family);
+  color: var(--main-color);
+}
+
+h3:hover {
+  color: #fff;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-}
-h3 {
-  font-family: var(--default-font-family);
-  color: var(--main-color);
 }
 
 .horizontal-line {
@@ -79,6 +89,9 @@ h3 {
   cursor: pointer;
   color: var(--main-color);
 }
+a {
+  text-decoration: none;
+}
 
 .project-info {
   padding: 0px 60px;
@@ -104,28 +117,6 @@ h3 {
   box-shadow: 10px 10px 10px var(--main-color);
 }
 
-.icons {
-  font-size: 28px;
-  color: var(--main-color);
-  padding: 10px;
-
-  border: 1px groove darkgrey;
-  border-radius: 50px;
-  box-shadow: inset 0px 0px 10px var(--main-color);
-  text-align: center;
-}
-
-.icons a {
-  text-decoration: none;
-  color: var(--main-color);
-  font-family: var(--default-font-family);
-  font-size: 15px;
-  text-align: center;
-}
-.contact-icon {
-  font-size: 20px;
-  display: block;
-}
 .contact-info {
   padding: 20px;
 }
