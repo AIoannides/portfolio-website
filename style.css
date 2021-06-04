@@ -33,6 +33,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.copyright p {
+  font-family: var(--heading-font-family);
+}
 
 .horizontal-line {
   height: 1px;
